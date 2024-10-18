@@ -1,0 +1,188 @@
+2024-10-18 20:42:21,843 - __main__ - INFO - Uploading document: target_documents\target1.txt
+2024-10-18 20:42:23,886 - __main__ - INFO - Upload response: {'message': 'Document uploaded successfully.', 'document_id': 'a8664b04-7d13-4a19-8186-705b8cd3e9cc'}
+2024-10-18 20:42:23,887 - __main__ - INFO - Document uploaded successfully. Document ID: a8664b04-7d13-4a19-8186-705b8cd3e9cc
+2024-10-18 20:42:27,971 - __main__ - INFO - Retrieved plagiarism report for Document ID a8664b04-7d13-4a19-8186-705b8cd3e9cc
+2024-10-18 20:45:16,979 - __main__ - INFO - Uploading document: E:\Github\swarm-openai\target_documents\target1.txt
+2024-10-18 20:45:19,005 - __main__ - INFO - Upload response: {'message': 'Document uploaded successfully.', 'document_id': 'af767e40-34c2-4a95-9027-52a0b722ac07'}
+2024-10-18 20:45:19,005 - __main__ - INFO - Document uploaded successfully. Document ID: af767e40-34c2-4a95-9027-52a0b722ac07
+2024-10-18 20:45:30,085 - __main__ - ERROR - Failed to retrieve the report.
+2024-10-18 20:48:02,548 - backend.app.utils.logging_config - INFO - Initializing OpenAI client
+2024-10-18 20:48:48,882 - backend.app.utils.logging_config - INFO - Initializing OpenAI client
+2024-10-18 20:49:09,545 - backend.app.utils.logging_config - INFO - Initializing OpenAI client
+2024-10-18 20:49:31,164 - backend.app.processors.document_processor - INFO - Starting document processor module
+2024-10-18 20:49:31,164 - backend.app.processors.document_processor - INFO - Loading .env file from: E:\Github\swarm-openai\backend\app\processors\..\..\.env
+2024-10-18 20:49:31,165 - backend.app.processors.document_processor - INFO - OpenAI API Key loaded: ****************************************************************************************************************************************************************pDgA
+2024-10-18 20:49:31,165 - backend.app.processors.document_processor - INFO - Initializing OpenAI client
+2024-10-18 20:49:31,424 - backend.app.processors.document_processor - INFO - Initializing Swarm client
+2024-10-18 20:51:26,491 - backend.app.processors.document_processor - INFO - Starting document processor module
+2024-10-18 20:51:26,492 - backend.app.processors.document_processor - INFO - Loading .env file from: E:\Github\swarm-openai\backend\app\processors\..\..\.env
+2024-10-18 20:51:26,496 - backend.app.processors.document_processor - INFO - OpenAI API Key loaded: ****************************************************************************************************************************************************************pDgA
+2024-10-18 20:51:26,496 - backend.app.processors.document_processor - INFO - Initializing OpenAI client
+2024-10-18 20:51:26,736 - backend.app.processors.document_processor - INFO - Initializing Swarm client
+2024-10-18 20:52:46,270 - backend.app.processors.document_processor - INFO - Starting document processor module
+2024-10-18 20:52:46,270 - backend.app.processors.document_processor - INFO - Loading .env file from: E:\Github\swarm-openai\backend\app\processors\..\..\.env
+2024-10-18 20:52:46,271 - backend.app.processors.document_processor - INFO - OpenAI API Key loaded: ****************************************************************************************************************************************************************pDgA
+2024-10-18 20:52:46,271 - backend.app.processors.document_processor - INFO - Initializing OpenAI client
+2024-10-18 20:52:46,529 - backend.app.processors.document_processor - INFO - Initializing Swarm client
+2024-10-18 20:52:51,693 - backend.app.utils.logging_config - INFO - Uploading document: E:\Github\swarm-openai\target_documents\target1.txt
+2024-10-18 20:52:53,735 - backend.app.utils.logging_config - INFO - Saved uploaded file to reports\558e6c64-b254-4586-8f99-8fa8f2ecd561_target.txt
+2024-10-18 20:52:53,736 - backend.app.utils.logging_config - INFO - Started plagiarism processing for document ID 558e6c64-b254-4586-8f99-8fa8f2ecd561
+2024-10-18 20:52:53,737 - backend.app.utils.logging_config - INFO - Upload response: {'message': 'Document uploaded successfully.', 'document_id': '558e6c64-b254-4586-8f99-8fa8f2ecd561'}
+2024-10-18 20:52:53,738 - backend.app.utils.logging_config - INFO - Document uploaded successfully. Document ID: 558e6c64-b254-4586-8f99-8fa8f2ecd561
+2024-10-18 20:52:53,742 - backend.app.processors.document_processor - INFO - Starting plagiarism processing for document ID: 558e6c64-b254-4586-8f99-8fa8f2ecd561
+2024-10-18 20:52:53,744 - backend.app.processors.document_processor - INFO - Successfully read target document: 558e6c64-b254-4586-8f99-8fa8f2ecd561
+2024-10-18 20:52:53,745 - backend.app.processors.document_processor - INFO - Splitting document into sections
+2024-10-18 20:52:53,746 - backend.app.processors.document_processor - INFO - Document split into 3 sections
+2024-10-18 20:52:53,753 - backend.app.processors.document_processor - INFO - Running triage agent
+2024-10-18 20:52:55,760 - backend.app.utils.logging_config - INFO - Checked status for document ID 558e6c64-b254-4586-8f99-8fa8f2ecd561: processing
+2024-10-18 20:52:57,114 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-18 20:52:57,120 - backend.app.utils.logging_config - INFO - Analyzing Introduction section
+2024-10-18 20:52:57,120 - backend.app.utils.logging_config - INFO - Analyzing section for plagiarism (first 50 chars): Artificial Intelligence has revolutionized many se...
+2024-10-18 20:52:57,121 - backend.app.utils.logging_config - INFO - Starting Rabin-Karp plagiarism detection with n=5, threshold=3
+2024-10-18 20:52:57,121 - backend.app.utils.logging_config - INFO - Loading source n-grams with n=5.
+2024-10-18 20:52:57,123 - backend.app.utils.logging_config - INFO - Loaded n-grams from 117 unique hashes.
+2024-10-18 20:52:57,123 - backend.app.utils.logging_config - INFO - Loaded 117 source n-gram hashes
+2024-10-18 20:52:57,123 - backend.app.utils.logging_config - INFO - Generated 8 n-grams from target text
+2024-10-18 20:52:57,123 - backend.app.utils.logging_config - INFO - Plagiarism detected: 8 matches found in source1.txt
+2024-10-18 20:52:57,124 - backend.app.utils.logging_config - INFO - Plagiarism detection completed. Total instances found: 8
+2024-10-18 20:52:57,124 - backend.app.utils.logging_config - INFO - Plagiarism instances found: 8
+2024-10-18 20:52:57,125 - backend.app.utils.logging_config - INFO - Plagiarism report generated: Plagiarism detected in 8 instances.
+2024-10-18 20:52:57,125 - backend.app.utils.logging_config - INFO - Analyzing Body section
+2024-10-18 20:52:57,125 - backend.app.utils.logging_config - INFO - Analyzing section for plagiarism (first 50 chars): Machine learning, which is part of AI, enables sys...
+2024-10-18 20:52:57,126 - backend.app.utils.logging_config - INFO - Starting Rabin-Karp plagiarism detection with n=5, threshold=3
+2024-10-18 20:52:57,126 - backend.app.utils.logging_config - INFO - Loading source n-grams with n=5.
+2024-10-18 20:52:57,128 - backend.app.utils.logging_config - INFO - Loaded n-grams from 117 unique hashes.
+2024-10-18 20:52:57,128 - backend.app.utils.logging_config - INFO - Loaded 117 source n-gram hashes
+2024-10-18 20:52:57,129 - backend.app.utils.logging_config - INFO - Generated 27 n-grams from target text
+2024-10-18 20:52:57,130 - backend.app.utils.logging_config - INFO - Plagiarism detected: 27 matches found in source1.txt
+2024-10-18 20:52:57,130 - backend.app.utils.logging_config - INFO - Plagiarism detection completed. Total instances found: 27
+2024-10-18 20:52:57,130 - backend.app.utils.logging_config - INFO - Plagiarism instances found: 27
+2024-10-18 20:52:57,131 - backend.app.utils.logging_config - INFO - Plagiarism report generated: Plagiarism detected in 27 instances.
+2024-10-18 20:52:57,131 - backend.app.utils.logging_config - INFO - Analyzing Conclusion section
+2024-10-18 20:52:57,131 - backend.app.utils.logging_config - INFO - Analyzing section for plagiarism (first 50 chars): AI's influence is expected to expand, fostering fu...
+2024-10-18 20:52:57,132 - backend.app.utils.logging_config - INFO - Starting Rabin-Karp plagiarism detection with n=5, threshold=3
+2024-10-18 20:52:57,132 - backend.app.utils.logging_config - INFO - Loading source n-grams with n=5.
+2024-10-18 20:52:57,134 - backend.app.utils.logging_config - INFO - Loaded n-grams from 117 unique hashes.
+2024-10-18 20:52:57,134 - backend.app.utils.logging_config - INFO - Loaded 117 source n-gram hashes
+2024-10-18 20:52:57,136 - backend.app.utils.logging_config - INFO - Generated 22 n-grams from target text
+2024-10-18 20:52:57,136 - backend.app.utils.logging_config - INFO - Plagiarism detected: 22 matches found in source1.txt
+2024-10-18 20:52:57,136 - backend.app.utils.logging_config - INFO - Plagiarism detected: 8 matches found in source2.txt
+2024-10-18 20:52:57,137 - backend.app.utils.logging_config - INFO - Plagiarism detection completed. Total instances found: 30
+2024-10-18 20:52:57,137 - backend.app.utils.logging_config - INFO - Plagiarism instances found: 30
+2024-10-18 20:52:57,137 - backend.app.utils.logging_config - INFO - Plagiarism report generated: Plagiarism detected in 30 instances.
+2024-10-18 20:52:57,138 - backend.app.processors.document_processor - INFO - Extracted aggregated report from triage agent response
+2024-10-18 20:52:57,138 - backend.app.processors.document_processor - INFO - Plagiarism report saved for document ID: 558e6c64-b254-4586-8f99-8fa8f2ecd561
+2024-10-18 20:52:57,139 - backend.app.processors.document_processor - INFO - Plagiarism processing completed for document ID: 558e6c64-b254-4586-8f99-8fa8f2ecd561
+2024-10-18 20:53:02,777 - backend.app.utils.logging_config - INFO - Checked status for document ID 558e6c64-b254-4586-8f99-8fa8f2ecd561: completed
+2024-10-18 20:53:04,805 - backend.app.utils.logging_config - WARNING - Report not found for document ID 558e6c64-b254-4586-8f99-8fa8f2ecd561
+2024-10-18 20:53:04,805 - backend.app.utils.logging_config - ERROR - Error fetching report for document ID 558e6c64-b254-4586-8f99-8fa8f2ecd561: 404: Report not found.
+2024-10-18 20:53:04,807 - backend.app.utils.logging_config - ERROR - Failed to retrieve the report.
+2024-10-18 20:55:36,948 - backend.app.utils.logging_config - INFO - Uploading document: E:\Github\swarm-openai\target_documents\target1.txt
+2024-10-18 20:55:38,992 - backend.app.utils.logging_config - INFO - Saved uploaded file to reports\e3574146-9b36-4898-a9c9-9502b5a4d09c_target.txt
+2024-10-18 20:55:38,993 - backend.app.utils.logging_config - INFO - Started plagiarism processing for document ID e3574146-9b36-4898-a9c9-9502b5a4d09c
+2024-10-18 20:55:38,994 - backend.app.processors.document_processor - INFO - Starting plagiarism processing for document ID: e3574146-9b36-4898-a9c9-9502b5a4d09c
+2024-10-18 20:55:38,994 - backend.app.utils.logging_config - INFO - Upload response: {'message': 'Document uploaded successfully.', 'document_id': 'e3574146-9b36-4898-a9c9-9502b5a4d09c'}
+2024-10-18 20:55:38,995 - backend.app.utils.logging_config - INFO - Document uploaded successfully. Document ID: e3574146-9b36-4898-a9c9-9502b5a4d09c
+2024-10-18 20:55:39,011 - backend.app.processors.document_processor - INFO - Successfully read target document: e3574146-9b36-4898-a9c9-9502b5a4d09c
+2024-10-18 20:55:39,015 - backend.app.processors.document_processor - INFO - Splitting document into sections
+2024-10-18 20:55:39,016 - backend.app.processors.document_processor - INFO - Document split into 3 sections
+2024-10-18 20:55:39,017 - backend.app.processors.document_processor - INFO - Running triage agent
+2024-10-18 20:55:41,024 - backend.app.utils.logging_config - INFO - Checked status for document ID e3574146-9b36-4898-a9c9-9502b5a4d09c: processing
+2024-10-18 20:55:41,059 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-18 20:55:41,060 - backend.app.utils.logging_config - INFO - Analyzing Introduction section
+2024-10-18 20:55:41,061 - backend.app.utils.logging_config - INFO - Analyzing section for plagiarism (first 50 chars): Artificial Intelligence has revolutionized many se...
+2024-10-18 20:55:41,061 - backend.app.utils.logging_config - INFO - Starting Rabin-Karp plagiarism detection with n=5, threshold=3
+2024-10-18 20:55:41,061 - backend.app.utils.logging_config - INFO - Loading source n-grams with n=5.
+2024-10-18 20:55:41,063 - backend.app.utils.logging_config - INFO - Loaded n-grams from 117 unique hashes.
+2024-10-18 20:55:41,063 - backend.app.utils.logging_config - INFO - Loaded 117 source n-gram hashes
+2024-10-18 20:55:41,063 - backend.app.utils.logging_config - INFO - Generated 8 n-grams from target text
+2024-10-18 20:55:41,064 - backend.app.utils.logging_config - INFO - Plagiarism detected: 8 matches found in source1.txt
+2024-10-18 20:55:41,064 - backend.app.utils.logging_config - INFO - Plagiarism detection completed. Total instances found: 8
+2024-10-18 20:55:41,065 - backend.app.utils.logging_config - INFO - Plagiarism instances found: 8
+2024-10-18 20:55:41,065 - backend.app.utils.logging_config - INFO - Plagiarism report generated: Plagiarism detected in 8 instances.
+2024-10-18 20:55:41,065 - backend.app.utils.logging_config - INFO - Analyzing Body section
+2024-10-18 20:55:41,065 - backend.app.utils.logging_config - INFO - Analyzing section for plagiarism (first 50 chars): Machine learning, which is part of AI, enables sys...
+2024-10-18 20:55:41,066 - backend.app.utils.logging_config - INFO - Starting Rabin-Karp plagiarism detection with n=5, threshold=3
+2024-10-18 20:55:41,066 - backend.app.utils.logging_config - INFO - Loading source n-grams with n=5.
+2024-10-18 20:55:41,068 - backend.app.utils.logging_config - INFO - Loaded n-grams from 117 unique hashes.
+2024-10-18 20:55:41,068 - backend.app.utils.logging_config - INFO - Loaded 117 source n-gram hashes
+2024-10-18 20:55:41,068 - backend.app.utils.logging_config - INFO - Generated 27 n-grams from target text
+2024-10-18 20:55:41,069 - backend.app.utils.logging_config - INFO - Plagiarism detected: 27 matches found in source1.txt
+2024-10-18 20:55:41,069 - backend.app.utils.logging_config - INFO - Plagiarism detection completed. Total instances found: 27
+2024-10-18 20:55:41,069 - backend.app.utils.logging_config - INFO - Plagiarism instances found: 27
+2024-10-18 20:55:41,070 - backend.app.utils.logging_config - INFO - Plagiarism report generated: Plagiarism detected in 27 instances.
+2024-10-18 20:55:41,070 - backend.app.utils.logging_config - INFO - Analyzing Conclusion section
+2024-10-18 20:55:41,071 - backend.app.utils.logging_config - INFO - Analyzing section for plagiarism (first 50 chars): AI's influence is expected to expand, fostering fu...
+2024-10-18 20:55:41,071 - backend.app.utils.logging_config - INFO - Starting Rabin-Karp plagiarism detection with n=5, threshold=3
+2024-10-18 20:55:41,072 - backend.app.utils.logging_config - INFO - Loading source n-grams with n=5.
+2024-10-18 20:55:41,073 - backend.app.utils.logging_config - INFO - Loaded n-grams from 117 unique hashes.
+2024-10-18 20:55:41,074 - backend.app.utils.logging_config - INFO - Loaded 117 source n-gram hashes
+2024-10-18 20:55:41,074 - backend.app.utils.logging_config - INFO - Generated 22 n-grams from target text
+2024-10-18 20:55:41,074 - backend.app.utils.logging_config - INFO - Plagiarism detected: 22 matches found in source1.txt
+2024-10-18 20:55:41,075 - backend.app.utils.logging_config - INFO - Plagiarism detected: 8 matches found in source2.txt
+2024-10-18 20:55:41,075 - backend.app.utils.logging_config - INFO - Plagiarism detection completed. Total instances found: 30
+2024-10-18 20:55:41,076 - backend.app.utils.logging_config - INFO - Plagiarism instances found: 30
+2024-10-18 20:55:41,076 - backend.app.utils.logging_config - INFO - Plagiarism report generated: Plagiarism detected in 30 instances.
+2024-10-18 20:55:41,076 - backend.app.processors.document_processor - INFO - Extracted aggregated report from triage agent response
+2024-10-18 20:55:41,077 - backend.app.processors.document_processor - INFO - Plagiarism report saved for document ID: e3574146-9b36-4898-a9c9-9502b5a4d09c
+2024-10-18 20:55:41,077 - backend.app.processors.document_processor - INFO - Plagiarism processing completed for document ID: e3574146-9b36-4898-a9c9-9502b5a4d09c
+2024-10-18 20:55:48,056 - backend.app.utils.logging_config - INFO - Checked status for document ID e3574146-9b36-4898-a9c9-9502b5a4d09c: completed
+2024-10-18 20:55:50,075 - backend.app.utils.logging_config - WARNING - Report not found for document ID e3574146-9b36-4898-a9c9-9502b5a4d09c
+2024-10-18 20:55:50,075 - backend.app.utils.logging_config - ERROR - Error fetching report for document ID e3574146-9b36-4898-a9c9-9502b5a4d09c: 404: Report not found.
+2024-10-18 20:55:50,076 - backend.app.utils.logging_config - ERROR - Failed to retrieve the report.
+2024-10-18 21:02:05,259 - backend.app.processors.document_processor - INFO - Starting document processor module
+2024-10-18 21:02:05,260 - backend.app.processors.document_processor - INFO - Loading .env file from: E:\Github\swarm-openai\backend\app\processors\..\..\.env
+2024-10-18 21:02:05,261 - backend.app.processors.document_processor - INFO - OpenAI API Key loaded: ****************************************************************************************************************************************************************pDgA
+2024-10-18 21:02:05,261 - backend.app.processors.document_processor - INFO - Initializing OpenAI client
+2024-10-18 21:02:05,509 - backend.app.processors.document_processor - INFO - Initializing Swarm client
+2024-10-18 21:02:08,813 - backend.app.utils.logging_config - INFO - Uploading document: E:\Github\swarm-openai\target_documents\target1.txt
+2024-10-18 21:02:10,839 - backend.app.utils.logging_config - INFO - Saved uploaded file to reports\acad5578-fa2d-4361-825d-d8dbf29410a9_target.txt
+2024-10-18 21:02:10,840 - backend.app.utils.logging_config - INFO - Started plagiarism processing for document ID acad5578-fa2d-4361-825d-d8dbf29410a9
+2024-10-18 21:02:10,842 - backend.app.utils.logging_config - INFO - Upload response: {'message': 'Document uploaded successfully.', 'document_id': 'acad5578-fa2d-4361-825d-d8dbf29410a9'}
+2024-10-18 21:02:10,843 - backend.app.utils.logging_config - INFO - Document uploaded successfully. Document ID: acad5578-fa2d-4361-825d-d8dbf29410a9
+2024-10-18 21:02:10,847 - backend.app.processors.document_processor - INFO - Starting plagiarism processing for document ID: acad5578-fa2d-4361-825d-d8dbf29410a9
+2024-10-18 21:02:10,849 - backend.app.processors.document_processor - INFO - Successfully read target document: acad5578-fa2d-4361-825d-d8dbf29410a9
+2024-10-18 21:02:10,849 - backend.app.processors.document_processor - INFO - Splitting document into sections
+2024-10-18 21:02:10,850 - backend.app.processors.document_processor - INFO - Running triage agent
+2024-10-18 21:02:12,876 - backend.app.utils.logging_config - INFO - Checked status for document ID acad5578-fa2d-4361-825d-d8dbf29410a9: processing
+2024-10-18 21:02:14,360 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-18 21:02:14,364 - backend.app.utils.logging_config - INFO - Analyzing Introduction section
+2024-10-18 21:02:14,364 - backend.app.utils.logging_config - INFO - Analyzing section for plagiarism (first 50 chars): Artificial Intelligence has revolutionized many se...
+2024-10-18 21:02:14,364 - backend.app.utils.logging_config - INFO - Starting Rabin-Karp plagiarism detection with n=5, threshold=3
+2024-10-18 21:02:14,364 - backend.app.utils.logging_config - INFO - Loading source n-grams with n=5.
+2024-10-18 21:02:14,366 - backend.app.utils.logging_config - INFO - Loaded n-grams from 117 unique hashes.
+2024-10-18 21:02:14,366 - backend.app.utils.logging_config - INFO - Loaded 117 source n-gram hashes
+2024-10-18 21:02:14,367 - backend.app.utils.logging_config - INFO - Generated 8 n-grams from target text
+2024-10-18 21:02:14,367 - backend.app.utils.logging_config - INFO - Plagiarism detected: 8 matches found in source1.txt
+2024-10-18 21:02:14,367 - backend.app.utils.logging_config - INFO - Plagiarism detection completed. Total instances found: 8
+2024-10-18 21:02:14,368 - backend.app.utils.logging_config - INFO - Plagiarism instances found: 8
+2024-10-18 21:02:14,368 - backend.app.utils.logging_config - INFO - Plagiarism report generated: Plagiarism detected in 8 instances.
+2024-10-18 21:02:14,368 - backend.app.utils.logging_config - INFO - Analyzing Body section
+2024-10-18 21:02:14,369 - backend.app.utils.logging_config - INFO - Analyzing section for plagiarism (first 50 chars): Machine learning, which is part of AI, enables sys...
+2024-10-18 21:02:14,369 - backend.app.utils.logging_config - INFO - Starting Rabin-Karp plagiarism detection with n=5, threshold=3
+2024-10-18 21:02:14,369 - backend.app.utils.logging_config - INFO - Loading source n-grams with n=5.
+2024-10-18 21:02:14,371 - backend.app.utils.logging_config - INFO - Loaded n-grams from 117 unique hashes.
+2024-10-18 21:02:14,371 - backend.app.utils.logging_config - INFO - Loaded 117 source n-gram hashes
+2024-10-18 21:02:14,372 - backend.app.utils.logging_config - INFO - Generated 27 n-grams from target text
+2024-10-18 21:02:14,372 - backend.app.utils.logging_config - INFO - Plagiarism detected: 27 matches found in source1.txt
+2024-10-18 21:02:14,372 - backend.app.utils.logging_config - INFO - Plagiarism detection completed. Total instances found: 27
+2024-10-18 21:02:14,373 - backend.app.utils.logging_config - INFO - Plagiarism instances found: 27
+2024-10-18 21:02:14,373 - backend.app.utils.logging_config - INFO - Plagiarism report generated: Plagiarism detected in 27 instances.
+2024-10-18 21:02:14,373 - backend.app.utils.logging_config - INFO - Analyzing Conclusion section
+2024-10-18 21:02:14,374 - backend.app.utils.logging_config - INFO - Analyzing section for plagiarism (first 50 chars): AI's influence is expected to expand, fostering fu...
+2024-10-18 21:02:14,374 - backend.app.utils.logging_config - INFO - Starting Rabin-Karp plagiarism detection with n=5, threshold=3
+2024-10-18 21:02:14,374 - backend.app.utils.logging_config - INFO - Loading source n-grams with n=5.
+2024-10-18 21:02:14,376 - backend.app.utils.logging_config - INFO - Loaded n-grams from 117 unique hashes.
+2024-10-18 21:02:14,376 - backend.app.utils.logging_config - INFO - Loaded 117 source n-gram hashes
+2024-10-18 21:02:14,376 - backend.app.utils.logging_config - INFO - Generated 22 n-grams from target text
+2024-10-18 21:02:14,377 - backend.app.utils.logging_config - INFO - Plagiarism detected: 22 matches found in source1.txt
+2024-10-18 21:02:14,377 - backend.app.utils.logging_config - INFO - Plagiarism detected: 8 matches found in source2.txt
+2024-10-18 21:02:14,377 - backend.app.utils.logging_config - INFO - Plagiarism detection completed. Total instances found: 30
+2024-10-18 21:02:14,377 - backend.app.utils.logging_config - INFO - Plagiarism instances found: 30
+2024-10-18 21:02:14,378 - backend.app.utils.logging_config - INFO - Plagiarism report generated: Plagiarism detected in 30 instances.
+2024-10-18 21:02:14,378 - backend.app.processors.document_processor - INFO - Extracted aggregated report from triage agent response
+2024-10-18 21:02:14,379 - backend.app.processors.document_processor - INFO - Plagiarism report saved for document ID: acad5578-fa2d-4361-825d-d8dbf29410a9
+2024-10-18 21:02:14,379 - backend.app.processors.document_processor - INFO - Plagiarism processing completed for document ID: acad5578-fa2d-4361-825d-d8dbf29410a9
+2024-10-18 21:02:19,914 - backend.app.utils.logging_config - INFO - Checked status for document ID acad5578-fa2d-4361-825d-d8dbf29410a9: completed
+2024-10-18 21:02:21,953 - backend.app.utils.logging_config - INFO - Fetched report for document ID acad5578-fa2d-4361-825d-d8dbf29410a9
+2024-10-18 21:02:21,955 - backend.app.utils.logging_config - INFO - Retrieved plagiarism report for Document ID acad5578-fa2d-4361-825d-d8dbf29410a9
