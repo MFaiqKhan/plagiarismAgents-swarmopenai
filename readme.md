@@ -1,6 +1,4 @@
-# Swarm-OpenAI Plagiarism Detection
-
-![Project Logo](path/to/logo.png) <!-- Replace with your project's logo if available -->
+# SSwarm Multi Agent Plagiarism Detection System
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -19,7 +17,7 @@
 
 ## Introduction
 
-Swarm-OpenAI is an intelligent plagiarism detection system designed to analyze documents for potential plagiarized content efficiently and accurately. Leveraging the power of the **Swarm** package and advanced algorithms like **Rabin-Karp**, this project offers a robust solution for academic institutions, publishers, and content creators to ensure the originality of their work.
+Swarm Multi Agent Plagiarism Detection System is an intelligent plagiarism detection system designed to analyze documents for potential plagiarized content efficiently and accurately. Leveraging the power of the **Swarm** package and advanced algorithms like **Rabin-Karp**, this project offers a robust solution for academic institutions, publishers, and content creators to ensure the originality of their work.
 
 ## Features
 
